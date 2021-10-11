@@ -1,8 +1,8 @@
-How use the web application: 
+How use the web application:
 
-1. Open the folder with an editor, setting the file ".env" with your IP of localhost, open the software "MAMP" (I used that) and open "phpMyAdmin" and create a db: "lunch" 
+1. Open the folder with an editor, duplicate and setting the file ".env" with your IP of localhost, open the software "MAMP" (I used that) and open "phpMyAdmin" and create a db: "lunch"
 
-2.Open the terminal on the folder of project and write "php artisan serve" and than "php artisan migrate" 
+2.Open the terminal on the folder of project and write "php artisan serve", than "npm install" and than "php artisan migrate"
 
 3. Now you can use your browser with your IP local and see the basic front-end with "Vuejs"
 
@@ -16,6 +16,5 @@ How use the web application:
 
 8. For logout, click your Username->LogOut
 
-Bonus: 
+Bonus:
 -Add an secure method when you select the Date (if you change the ID of the <select>, the system say you "Is invalid")
-
